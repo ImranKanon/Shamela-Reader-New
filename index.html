@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shamela Reader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>📚 Shamela Reader</header>
+  <div id="webview">
+    <iframe id="shamelaFrame" src="https://shamela.ws"></iframe>
+  </div>
+  <div id="controls">
+    <button onclick="saveCurrentPage()">📌 Save</button>
+    <button onclick="loadSavedPage()">📂 Load</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
